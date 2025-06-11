@@ -129,6 +129,7 @@ describe('CheckCRUD lifecycle for folders', () => {
       expect(getResponse.status).to.eq(401);
     })
   })
+
   it('Send POST request with incorect spaceId ', () => {
     const randomSpaceId = faker.string.numeric(6)
     cy.request({
