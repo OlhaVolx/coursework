@@ -1,7 +1,7 @@
 import {faker} from "@faker-js/faker";
 // const API_URL = Cypress.env('API_URL');
 // const TOKEN = Cypress.env('TOKEN');
-
+import '@shelex/cypress-allure-plugin';
 
 export const createFolder = () =>{
     const SPACE_ID = Cypress.env('SPACE_ID');

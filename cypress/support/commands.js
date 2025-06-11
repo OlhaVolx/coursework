@@ -49,7 +49,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import { faker } from '@faker-js/faker';
-
+import '@shelex/cypress-allure-plugin';
 
 const API_URL = Cypress.env('API_URL');
 const TOKEN = Cypress.env('TOKEN');
